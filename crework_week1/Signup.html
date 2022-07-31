@@ -2,6 +2,7 @@
 <html lang="en">
 
     <head>
+        <link rel="stylesheet" href="./signup.css">
         <meta charset="utf-8">
         <meta name="description" content="Your description goes here">
         <meta name="keywords" content="one, two, three">
@@ -9,34 +10,39 @@
         <title>Sign up page</title>
     </head>
     <body>
-        <h1>Sign up</h1>
-        <button><a href="https://accounts.google.com/servicelogin" target="_blank">Sign up with Google</a></button><br><br><hr>
-
-        <!-- name -->
-        <div><label for="name">Name</label><br>
-        <input type="text" id="name" placeholder="Enter your name"></div>
-        <br>
-
-        <!-- email -->
-        <div><label for="email">Email</label><br>
-        <input type="email" id="email" placeholder="example@mail.com"></div>
-        <br>
-
-        <!-- Password -->
-        <div><label for="password">Password</label><br>
-        <input type="password" id="password" placeholder="at least 8 characters"></div>
-        <hr>
-
-        <!-- Terms and Privacy -->
-        <input type="checkbox" id="terms">
-        <label for="terms">I agree with <a href="#">Terms</a> and <a href="#">Privacy</a></label><br><br>
-
-        <!-- Sign up button -->
-        <button type="submit">Sign up</button>
-        <hr>
-
-        <!-- login -->
-        <h3>Already have an account?</h3>
-        <a href="login.html" target="_blank">Log in</a>
+        <main>
+            <h1>Sign up</h1>
+            
+            
+            <!-- name -->
+            <div><label for="name">Name</label><br>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+            <br>
+            
+            <!-- email -->
+            <div><label for="email">Email</label><br>
+                <input type="email" id="email" placeholder="example@mail.com">
+            </div>
+            <br>
+            
+            <!-- Password -->
+            <div><label for="password">Password</label><br>
+                <input type="password" id="password" placeholder="at least 8 characters">
+            </div>
+            
+            
+            <!-- Terms and Privacy -->
+            <input type="checkbox" id="terms">
+            <label for="terms">I agree with <a href="#">Terms</a> and <a href="#">Privacy</a></label><br><br>
+            
+            <!-- Sign up button -->
+            <button id="button" type="submit">Sign up</button>
+            
+            
+            <!-- login -->
+            <h3>Already have an account?</h3>
+            <a href="login.html" target="_blank">Log in</a>
+        </main>
     </body>
 </html>
